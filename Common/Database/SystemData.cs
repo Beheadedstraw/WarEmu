@@ -75,12 +75,12 @@ namespace SystemData
 
     public enum ItemRarity
     {
-        ITEMRARITY_UNCOMMON = 3,
-        ITEMRARITY_COMMON = 2,
-        ITEMRARITY_RARE = 4,
-        ITEMRARITY_UTILITY = 1,
-        ITEMRARITY_VERY_RARE = 5,
-        ITEMRARITY_ARTIFACT = 6,
+        ITEMRARITY_UTILITY = 1,     //Gray
+        ITEMRARITY_COMMON = 2,      //White
+        ITEMRARITY_UNCOMMON = 3,    //Green
+        ITEMRARITY_RARE = 4,        //Blue
+        ITEMRARITY_VERY_RARE = 5,   //Purple
+        ITEMRARITY_ARTIFACT = 6,    //Red
     };
 
     public enum EventTypes
